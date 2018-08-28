@@ -112,7 +112,7 @@ A launch.json file is necessary to use environment variables from the .env file 
         "--timeout",
         "999999",
         "--colors",
-        "${workspaceFolder}/test/**/*.js"
+        "${workspaceFolder}/test/web/**/*.js"
       ],
       "internalConsoleOptions": "openOnSessionStart",
       "envFile":"${workspaceFolder}/.env"
