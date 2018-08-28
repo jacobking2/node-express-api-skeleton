@@ -112,7 +112,7 @@ A launch.json file is necessary to use environment variables from the .env file 
         "--timeout",
         "999999",
         "--colors",
-        "${workspaceFolder}/tests/**/*.js"
+        "${workspaceFolder}/test/**/*.js"
       ],
       "internalConsoleOptions": "openOnSessionStart",
       "envFile":"${workspaceFolder}/.env"
@@ -121,7 +121,7 @@ A launch.json file is necessary to use environment variables from the .env file 
 }
 ```
 
-Notes: The supplied JSON code will add two debugging options, `Launch API` and `Run Tests` to the Visual Studio Code IDE: 
+Notes: The supplied JSON code will add two debugging options, `Launch API` and `Run Tests` to the Visual Studio Code IDE:
 
 - `Launch API` will start the API. The default endpoint is localhost:3000/api
 

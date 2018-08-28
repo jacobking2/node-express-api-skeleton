@@ -6,8 +6,8 @@ const proxyquire = require('proxyquire').noCallThru();
 
 const logFunctionFactory =
   proxyquire(
-    '../../../src/services/logFunctionFactory',
-    { '../../src/config': { appName: 'AppName' } },
+    '../../../../src/web/services/logFunctionFactory',
+    { '../../../src/web/config': { appName: 'AppName' } },
   );
 
 chai.should();

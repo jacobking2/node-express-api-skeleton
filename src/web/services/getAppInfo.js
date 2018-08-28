@@ -1,7 +1,7 @@
 'use strict';
 
 const express = require('express');
-const pkgJSON = require('../../package.json');
+const pkgJSON = require('../../../package.json');
 const gitData = require('../services/getGitData');
 const getCommitSlug = require('./getCommitSlug');
 

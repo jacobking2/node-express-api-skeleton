@@ -1,7 +1,7 @@
 'use strict';
 
 const debug = require('debug');
-const config = require('../../src/config');
+const config = require('../config');
 
 /* eslint-disable no-console */
 const factory = {

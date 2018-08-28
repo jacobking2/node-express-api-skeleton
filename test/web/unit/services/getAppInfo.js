@@ -1,13 +1,13 @@
 'use strict';
 
 const chai = require('chai');
-const pkgJSON = require('../../../package.json');
+const pkgJSON = require('../../../../package.json');
 const proxyquire = require('proxyquire');
 
 const commitSlug = 'abc123';
 const getAppInfo =
   proxyquire(
-    '../../../src/services/getAppInfo',
+    '../../../../src/web/services/getAppInfo',
     {
       './getCommitSlug': () => new Promise((resolve) => {
         resolve(commitSlug);
