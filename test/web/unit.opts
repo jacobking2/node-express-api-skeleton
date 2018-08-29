@@ -1,1 +1,1 @@
-test/web/unit/**/*.js
+tests/web/unit/**/*.js
