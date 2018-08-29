@@ -1,8 +1,8 @@
 'use strict';
 
-const app = require('../../../../src/web/app');
 const chai = require('chai');
 const chaiHttp = require('chai-http');
+const app = require('../../../../src/web/app');
 
 const pkgJSON = require('../../../../package.json');
 

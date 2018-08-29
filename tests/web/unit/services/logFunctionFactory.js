@@ -4,11 +4,10 @@ const chai = require('chai');
 const sinon = require('sinon');
 const proxyquire = require('proxyquire').noCallThru();
 
-const logFunctionFactory =
-  proxyquire(
-    '../../../../src/web/services/logFunctionFactory',
-    { '../../../src/web/config': { appName: 'AppName' } },
-  );
+const logFunctionFactory = proxyquire(
+  '../../../../src/web/services/logFunctionFactory',
+  { '../../../src/web/config': { appName: 'AppName' } },
+);
 
 chai.should();
 
